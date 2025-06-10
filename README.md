@@ -1,4 +1,4 @@
-# UVA_Estrutura_dados_encadeada
+# UVA Estrutura de dados encadeada
 Gerenciamento de Lista Simplesmente Encadeada em C
 
 ## Descrição do Projeto
