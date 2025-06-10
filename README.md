@@ -1,14 +1,15 @@
 # UVA_Estrutura_dados_encadeada
 Gerenciamento de Lista Simplesmente Encadeada em C
-Descrição do Projeto
+
+## Descrição do Projeto
 Este projeto consiste em um programa em linguagem C que implementa uma Lista Simplesmente Encadeada. O objetivo é demonstrar as operações elementares de manipulação de dados dentro dessa estrutura sequencial, simulando um cenário de programação para a empresa Renalf Mega Data.
 
 A lista simplesmente encadeada é uma estrutura dinâmica onde cada elemento (nó) aponta para o próximo elemento na sequência, permitindo flexibilidade na inserção e remoção de dados sem a necessidade de realocar blocos de memória contíguos.
 
-# Funcionalidades Implementadas
+## Funcionalidades Implementadas
 O programa oferece um menu interativo com as seguintes operações básicas sobre a lista:
 
-´´´
+```
 Inclusão (insert): Adiciona um novo elemento ao final da lista.
 
 Consulta (search): Verifica se um determinado valor existe na lista e, se sim, informa sua posição.
@@ -18,12 +19,12 @@ Alteração (update): Substitui a primeira ocorrência de um valor existente na 
 Remoção (delete): Remove a primeira ocorrência de um valor especificado da lista.
 
 Listagem (display): Exibe todos os elementos atualmente armazenados na lista, da cabeça ao final.
-´´´
+```
 
-# Pré-requisitos
+## Pré-requisitos
 Para compilar e executar este programa, você precisará de um compilador C instalado em seu sistema. O GCC (GNU Compiler Collection) é altamente recomendado e está disponível para a maioria dos sistemas operacionais (Windows, macOS, Linux).
 
-# Como Compilar e Executar
+## Como Compilar e Executar
 Siga os passos abaixo para colocar o programa em funcionamento:
 
 Salve o Código: Copie o código-fonte C fornecido (o conteúdo do arquivo lista_encadeada.c) e salve-o em um arquivo com a extensão .c (ex: lista_encadeada.c).
@@ -38,13 +39,13 @@ Este comando criará um arquivo executável chamado lista_encadeada (ou lista_en
 
 Execute o Programa: Após a compilação bem-sucedida, execute o programa:
 
-´´´
+```
 ./lista_encadeada
-´´´
+```
 
-# Como Usar
+## Como Usar
 Ao executar o programa, você verá um menu de opções no console:
-´´´
+```
 --- Gerenciamento de Lista Simplesmente Encadeada ---
 1. Inserir elemento (ao final)
 2. Consultar elemento
@@ -54,7 +55,7 @@ Ao executar o programa, você verá um menu de opções no console:
 0. Sair do programa
 -----------------------------------------------------
 Escolha uma opção:
-´´´
+```
 Digite o número correspondente à operação desejada e pressione Enter. O programa solicitará as informações necessárias (como o valor a inserir, consultar, etc.) e exibirá os resultados. Para sair, digite 0.
 
 # Considerações Importantes
@@ -64,7 +65,7 @@ Alocação e Liberação de Memória: O programa faz uso intensivo de malloc par
 
 # Melhorias Futuras:
 
-´´´
+```
 Persistência de Dados: Implementar a gravação e leitura da lista em um arquivo (texto ou binário) para que os dados não sejam perdidos ao encerrar o programa.
 
 Inserção em Posição Específica: Adicionar funções para inserir um elemento no início da lista ou em uma posição arbitrária.
@@ -74,4 +75,4 @@ Contagem de Elementos: Uma função para retornar o número total de elementos n
 Lista Duplamente Encadeada: Evoluir a estrutura para uma lista duplamente encadeada, onde cada nó aponta para o próximo e para o anterior, facilitando certas operações (como a remoção, em alguns casos).
 
 Tratamento de Erros Aprimorado: Adicionar validações mais robustas para a entrada do usuário e tratamento de possíveis erros.
-´´´
+```
