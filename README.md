@@ -58,12 +58,12 @@ Escolha uma opção:
 ```
 Digite o número correspondente à operação desejada e pressione Enter. O programa solicitará as informações necessárias (como o valor a inserir, consultar, etc.) e exibirá os resultados. Para sair, digite 0.
 
-# Considerações Importantes
+## Considerações Importantes
 Dados Temporários: É fundamental entender que este programa armazena os dados da lista apenas na memória RAM enquanto está em execução. Isso significa que, ao fechar o programa, todos os dados são perdidos. Não há persistência de dados em disco (como em arquivos ou bancos de dados).
 
 Alocação e Liberação de Memória: O programa faz uso intensivo de malloc para alocar memória para novos nós e free para liberar essa memória quando os nós são removidos ou quando o programa é encerrado. Isso é crucial para evitar vazamentos de memória.
 
-# Melhorias Futuras:
+## Melhorias Futuras:
 
 ```
 Persistência de Dados: Implementar a gravação e leitura da lista em um arquivo (texto ou binário) para que os dados não sejam perdidos ao encerrar o programa.
